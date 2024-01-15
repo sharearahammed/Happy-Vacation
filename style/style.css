@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+
+/* header style */
+header {
+    margin: 52px 0px 50px 135px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title h1 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-title .vacations {
+    color: #FF5400;
+}
+
+.nav-title img {
+    width: 60px;
+    height: 55.008px;
+    margin-right: 16px;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 44px;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav ul .home {
+    color: #FF5400;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.manu-bar {
+    visibility: hidden;
+}
+
+@media screen and (max-width:600px) {
+    header {
+        margin: 20px;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    .manu-bar {
+        visibility: visible;
+    }
+
+    .nav-title img {
+        width: 28.724px;
+        height: 33.516px;
+        margin-right: 9px;
+    }
+
+    .nav-title h1 {
+        font-size: 21.543px;
+        font-weight: 800;
+    }
+
+}
