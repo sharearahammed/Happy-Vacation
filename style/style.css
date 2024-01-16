@@ -8,10 +8,9 @@
 }
 
 /* header style */
-nav {
+header {
     margin: 52px 135px 50px 135px;
 }
-
 
 nav {
     display: flex;
@@ -61,10 +60,12 @@ nav li a {
     text-decoration: none;
     color: #424242;
 }
-.myLinks li{
+
+.myLinks li {
     position: relative;
     left: 400px;
 }
+
 #menu-bar {
     display: none;
 }
@@ -143,6 +144,78 @@ nav li a {
 
 }
 
+/* section two */
+.section-two {
+    display: flex;
+    margin: 100px 135px 100px 135px;
+    justify-content: space-between;
+}
+
+.section-two-content {
+    padding: 20px;
+}
+
+.section-two-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.section-two-content .section-para {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.section-two-content ul li {
+    margin-left: 22px;
+}
+
+.btn {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    border: 0;
+}
+
+/* section three */
+.section-three {
+    margin: 100px 135px 100px 135px;
+}
+
+.section-three .row-one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    border: 16px;
+    margin-bottom: 24px;
+}
+.row-one img{
+    width: 100% ;
+}
+
+.section-three .row-two {
+    display: flex;
+    justify-content: space-between;
+    border: 16px;
+    margin-bottom: 24px;
+    width: 100%;
+}
+.row-two >div{
+    width: 100%;
+}
+.row-two img{
+    padding: 50px;
+    width: 100% ;
+}
+
 
 
 
@@ -159,21 +232,18 @@ nav li a {
 
     /* header style */
 
-    nav {
+    header nav {
         position: relative;
         right: 100px;
     }
 
-    .nav-title h1 {
+    header .nav-title h1 {
         color: #131318;
         font-size: 20.543px;
         font-weight: 800;
     }
 
-    main {
-        margin-left: 20px;
-    }
-    .myLinks li{
+    .myLinks li {
         position: relative;
         left: 180px;
     }
@@ -187,7 +257,8 @@ nav li a {
     #menu-bar {
         display: block;
     }
-    #menu-bar i{
+
+    #menu-bar i {
         position: relative;
         left: 150px;
     }
@@ -203,8 +274,8 @@ nav li a {
         font-weight: 800;
     }
 
-    /* main style */
     main {
+        margin-left: 20px;
         margin: 0;
 
     }
@@ -215,7 +286,8 @@ nav li a {
         margin-left: 25px;
     }
 
-    .section-one-form {
+    .section-one-form,
+    .section-two {
         flex-direction: column;
     }
 
@@ -236,9 +308,32 @@ nav li a {
         justify-content: center;
         align-items: center;
     }
-    .form-input{
+
+    .form-input {
         margin-left: 24px;
         margin-top: 16px;
     }
 
+    /* section two style */
+    .section-two {
+        width: 335px;
+        height: 483px;
+        margin: 25px;
+    }
+
+    .section-two-title {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .section-two-image img {
+        width: 335px;
+        height: 342px;
+    }
+
+    /* section three */
+    .section-three {
+        position: relative;
+        top: 700px;
+    }
 }
