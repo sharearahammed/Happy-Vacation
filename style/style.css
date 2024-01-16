@@ -246,11 +246,76 @@ nav li a {
         'image-six image-seven image-seven image-seven';
 }
 
+.center {
+    display: block;
+    position: relative;
+    bottom: 220px;
+    left: 330px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.Indonesia{
+    display: block;
+    position: relative;
+    bottom: 220px;
+    left: 330px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.Srilanka{
+    display: block;
+    position: relative;
+    bottom: 220px;
+    left: 200px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.North-America{
+    display: block;
+    position: relative;
+    bottom: 220px;
+    left: 240px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.Kashmir{
+    display: block;
+    position: relative;
+    bottom: 220px;
+    left: 150px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.Bangladesh{
+    display: block;
+    position: relative;
+    bottom: 190px;
+    left: 200px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+.Bandarban{
+    display: block;
+    position: relative;
+    bottom: 220px;
+    left: 500px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
 .grid-container div {
     margin-bottom: 24px;
 }
 
 .image-one img {
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
     width: 85%;
 }
 
@@ -638,6 +703,62 @@ nav li a {
     font-weight: 800;
 }
 
+/* footer style */
+.footer {
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 100px;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title img {
+    width: 50px;
+    height: 45px;
+    margin-bottom: 10px;
+    margin-right: 16px;
+}
+
+.footer .footer-title h2 {
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.footer p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.footer .travel {
+    color: #FF5400;
+}
+
+.footer .social {
+    margin-bottom: 50px;
+}
+
+.footer .social img {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+.footer h6 {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
 
 
 /* Style for mobile or small device */
@@ -970,6 +1091,7 @@ nav li a {
         border: 0;
         margin-top: 16px;
     }
+
     .section-seven-contact ::placeholder {
         font-size: 16px;
         font-weight: 400;
@@ -997,5 +1119,65 @@ nav li a {
     .offer h6 {
         font-size: 21.138px;
         font-weight: 800;
+    }
+
+    /* FOOTER style */
+    .footer {
+        position: relative;
+        top: 700px;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    /* footer style */
+    .footer {
+        text-align: center;
+        background: rgba(19, 19, 24, 0.05);
+        padding: 50px;
+    }
+
+    .footer-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-title img {
+        width: 28.724px;
+        height: 33.516px;
+        margin-bottom: 10px;
+    }
+
+    .footer .footer-title h2 {
+        color: #131318;
+        font-size: 32px;
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+
+    .footer p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+
+    .footer .travel {
+        color: #FF5400;
+    }
+
+    .footer .social {
+        margin-bottom: 24px;
+    }
+
+    .footer .social img {
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+    }
+
+    .footer h6 {
+        font-size: 14px;
+        font-weight: 300;
     }
 }
