@@ -479,10 +479,12 @@ nav li a {
 #section-five-img-two>#box {
     position: static;
 }
-.section-five .button{
+
+.section-five .button {
     margin-top: 48px;
     text-align: center;
 }
+
 .section-five button {
     border-radius: 8px;
     background: #FF5400;
@@ -493,6 +495,147 @@ nav li a {
     font-size: 20px;
     font-weight: 800;
     border: 0;
+}
+
+/* section six style */
+.section-six {
+    display: flex;
+    margin: 100px 135px 100px 135px;
+    justify-content: space-between;
+}
+
+.section-six-content h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+
+.section-six-content p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.section-six-content ul li {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.section-six-content ul {
+    margin-bottom: 32px;
+    padding-left: 18px;
+}
+
+.section-six-content button {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    border: 0;
+}
+
+/* section seven */
+.section-seven {
+    margin: 100px 135px 100px 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-seven-contact {
+    width: 474px;
+    height: 422px;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.section-seven-contact h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.section-seven-contact p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.section-seven-contact hr {
+    margin-bottom: 24px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
+.section-seven-contact input {
+    margin-bottom: 16px;
+    width: 43%;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    padding: 16px 251px 16px 20px;
+}
+
+.section-seven-contact ::placeholder {
+    color: rgba(19, 19, 24, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section-seven-contact button {
+    width: 472px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    border: 0;
+    margin-top: 16px;
+}
+
+.section-seven-img {
+    margin-top: 90px;
+}
+
+.offer {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 170px;
+    left: 340px;
+
+}
+
+.offer p {
+    padding-top: 20px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.offer h6 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
 }
 
 
@@ -758,8 +901,101 @@ nav li a {
         font-size: 18px;
         font-weight: 700;
     }
-    .section-five .button{
+
+    .section-five .button {
         margin-top: 48px;
         text-align: left;
+    }
+
+    /* section-six style */
+    .section-six {
+        position: relative;
+        top: 700px;
+        margin: 0;
+        margin-left: 25px;
+    }
+
+    .section-six {
+        flex-direction: column;
+    }
+
+    .section-six-img img {
+        border-radius: 16px;
+        background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+        width: 335px;
+        height: 200px;
+        margin-bottom: 24px;
+    }
+
+    .section-six-content button {
+        margin-bottom: 24px;
+        width: 174px;
+        height: 52px;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    /* section-seven */
+    .section-seven {
+        position: relative;
+        top: 700px;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    main .section-seven .section-seven-contact {
+        width: 250px;
+        height: 440px;
+    }
+
+    .section-seven-contact input {
+        margin-bottom: 16px;
+        width: 20px;
+        height: 52px;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+        border: 0;
+        padding: 0px 225px 0px 0px;
+    }
+
+    .section-seven-contact button {
+        width: 250px;
+        height: 52px;
+        border-radius: 8px;
+        background: #FF5400;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+        border: 0;
+        margin-top: 16px;
+    }
+    .section-seven-contact ::placeholder {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 16px 140px 16px 20px;
+    }
+
+    .section-seven-img img {
+        width: 335px;
+        height: 300px;
+    }
+
+    .offer {
+        width: 214.023px;
+        height: 79.268px;
+        bottom: 116px;
+        left: 116px;
+
+    }
+
+    .offer p {
+        font-size: 15.854px;
+        font-weight: 400;
+    }
+
+    .offer h6 {
+        font-size: 21.138px;
+        font-weight: 800;
     }
 }
