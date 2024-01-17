@@ -144,6 +144,51 @@ nav li a {
 
 }
 
+/* Bonus section */
+.bonus-section {
+    margin: 52px 135px 50px 135px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 60px;
+    border-radius: 9px;
+}
+
+.bonus-section h1 {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.bonus-section .para {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.flex h6 {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.flex p {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 /* section two */
 .section-two {
     display: flex;
@@ -874,6 +919,24 @@ nav li a {
         margin-top: 16px;
     }
 
+    /* Bonus section */
+.bonus-section {
+    padding: 30px;
+        width: 335px;
+        height: 483px;
+        margin-left: 10px;
+}
+
+.flex {
+    flex-direction: column;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+
     /* section two style */
     .section-two {
         width: 335px;
@@ -895,7 +958,7 @@ nav li a {
     /* section three */
     .section-three {
         position: relative;
-        top: 700px;
+        top: 1000px;
         margin: 0;
     }
 
@@ -932,7 +995,7 @@ nav li a {
     /* section four style */
     .section-four {
         position: relative;
-        top: 700px;
+        top: 1000px;
         margin: 10px;
     }
 
@@ -978,9 +1041,22 @@ nav li a {
 
     .section-five {
         position: relative;
-        top: 700px;
+        top: 1000px;
         margin: 0;
         margin-left: 40px;
+    }
+
+    .section-five h1 {
+        font-size: 20px;
+        font-weight: 800;
+        margin-right: 45px;
+    }
+
+    .section-five .para {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-right: 35px;
     }
 
     .section-five-img-one,
@@ -1054,7 +1130,7 @@ nav li a {
     /* section-six style */
     .section-six {
         position: relative;
-        top: 700px;
+        top: 1000px;
         margin: 0;
         margin-left: 25px;
     }
@@ -1096,7 +1172,7 @@ nav li a {
     /* section-seven */
     .section-seven {
         position: relative;
-        top: 700px;
+        top: 1000px;
         margin: 0;
         flex-direction: column;
     }
@@ -1160,7 +1236,7 @@ nav li a {
     /* FOOTER style */
     .footer {
         position: relative;
-        top: 700px;
+        top: 1000px;
         margin: 0;
         flex-direction: column;
     }
