@@ -1010,7 +1010,9 @@ nav li a {
         line-height: 24px;
     }
 
-    .section-four-card {}
+    .section-four-card {
+        margin-left: 10px;
+    }
 
     .card-one {
         width: 335px;
